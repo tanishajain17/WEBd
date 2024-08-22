@@ -1,0 +1,35 @@
+div{
+    height: 100px;
+    width: 200px;
+    background-color: chocolate;
+}
+div{
+    animation-name: motu;
+    animation-duration: 8s;
+}
+@keyframes motu{
+    0%{
+       background-color:green;
+       border-radius: 50px;
+       height: 200px;
+       width: 100px;
+    }
+    45%{
+        background-color:red;
+        border-radius: 10px;
+        height: 100px;
+        width: 300px;
+    }
+    60%{
+        background-color:blue;
+        border-radius: 20px;
+       height: 300px;
+       width: 100px;
+    }
+    100%{
+        background-color:rgb(128, 0, 64);
+        border-radius: 300px;
+       height: 400px;
+       width: 300px;
+    }
+}

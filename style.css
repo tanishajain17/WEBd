@@ -1,0 +1,22 @@
+h1{
+    color:blueviolet;
+}
+h2{
+    color: palevioletred;
+}
+h3{
+    color: darkgoldenrod;
+}
+h4{
+    color:orchid
+
+
+
+}
+a[href^="http"]{
+    background-color: crimson;
+}
+
+a[href$="in"]{
+    background-color: lightseagreen;
+}
